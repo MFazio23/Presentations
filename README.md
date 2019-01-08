@@ -5,6 +5,7 @@ Android 6.0, codenamed _Marshmallow_, was officially announced on September 29th
 
 ## Android Jetpack - Make Better Apps
 _tl;dr: Make better apps faster with Android Jetpack._
+
 I could explain Android Jetpack at a high level, but I'll let the Google marketing team take care of it:
 "Jetpack is a collection of Android software components to make it easier for you to develop great Android apps. These components help you follow best practices, free you from writing boilerplate code, and simplify complex tasks, so you can focus on the code you care about."
 
