@@ -20,6 +20,7 @@ view.doOnPreDraw {
 ```
 
 Note:
++ Kotlin Extensions
 + Add `google()` repository
 + Add `'androidx.core:core-ktx:1.0.0'` dependency
 + Extensions for:

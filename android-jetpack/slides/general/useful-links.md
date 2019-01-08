@@ -7,6 +7,7 @@
 <li>Jetpack on YouTube: https://l.faziodev.org/jetpack-youtube</li>
 <li>Paging on YouTube: https://l.faziodev.org/paging-youtube</li>
 <li>Android Sunflower: https://l.faziodev.org/jetpack</li>
+<li>Room with a View: https://l.faziodev.org/android-rwav-kotlin</li>
 </ul>
 
 Note:

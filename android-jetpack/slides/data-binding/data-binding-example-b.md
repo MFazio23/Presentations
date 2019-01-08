@@ -18,9 +18,9 @@
     ... />
 ```
 ```xml
-<TextView
+<CheckBox
     android:id="@+id/week_is_entered_into_system"
-    android:text="@={viewModel.enteredIntoSystem}"
+    android:checked="@={viewModel.enteredIntoSystem}"
     ... />
 ```
 

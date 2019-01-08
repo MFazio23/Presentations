@@ -22,6 +22,7 @@ abstract class AppDatabase : RoomDatabase() {
 
 Note:
 + Add DB views to access particular queries
++ Access via `Database.views()`
 + Database version is used with migrations
     + Able to use `Migration` class to update DB without losing data
         + Specify SQL to execute for a migration

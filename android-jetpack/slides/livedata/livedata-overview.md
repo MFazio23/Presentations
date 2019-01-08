@@ -23,7 +23,7 @@ final Observer<String> headerObserver = new Observer<String>() {
     }
 };
     
-vm.getCurrentName().observe(this, headerObserver);
+vm.getCurrentWeekHeader().observe(this, headerObserver);
 ```
 
 Note:

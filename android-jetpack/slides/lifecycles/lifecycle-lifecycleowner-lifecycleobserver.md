@@ -1,17 +1,26 @@
 ## `android.arch.lifecycle`
 
-+ `Lifecycle`: Contains `Event` and `State`
-+ `LifecycleOwner`: Contains `getLifecycle()`
-+ `LifecycleObserver`: Supports `@OnLifecycleEvent(...)` annotation
-<br />
-<br />
 ```kotlin
 if (lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) {
     // do something
 }
 ```
 
+```kotlin
+class MyObserver : LifecycleObserver {
+
+    @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
+    fun connectListener() {
+        ...
+    }
+    ...
+}
+```
+
 Note:
++ `Lifecycle`: Contains `Event` and `State`
++ `LifecycleOwner`: Contains `getLifecycle()`
++ `LifecycleObserver`: Supports `@OnLifecycleEvent(...)` annotation
 + `Lifecycle`:
     + `State`: Current state, like `CREATED`
     + `Event`: Change in state, like `ON_START`
