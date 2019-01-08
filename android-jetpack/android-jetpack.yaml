@@ -1,0 +1,73 @@
+slides:
+  - Title
+  - Thirty Second Overview
+  - Outline
+  - About Me:
+      - Fazio
+      - Skyline
+      - Warnings
+  - Jetpack overview
+  - Kotlin:
+      - Use It
+      - kotlinlang
+  - Adding Jetpack to your app
+  - Foundation:
+      - App Compat
+      - Android KTX
+      - Multidex
+      - Test
+  - Architecture (Components)
+  - Data Binding:
+      - What is Data Binding
+      - How to add it
+      - Data Binding Example A
+      - Data Binding Example B
+  - Lifecycles:
+      - What does this mean
+      - Lifecycle-aware components
+      - Lifecycle, LifecycleOwner, LifecycleObserver
+      - Lifecycle code sample
+  - LiveData:
+      - LiveData overview
+      - Advantages
+      - LiveData code sample
+  - Navigation:
+      - Navigation overview
+      - Benefits
+      - Principles
+      - Navigation Code Sample
+      - Navigation Visual Editor
+  - Paging:
+      - Paging overview
+      - PagedList and PagedAdapter
+      - Code Sample
+  - Room:
+      - Room overview
+      - Database, Entity, DAO
+      - Code Sample
+      - Database Views
+      - Database Migrations
+  - ViewModel:
+      - ViewModel overview
+      - Benefits
+      - Code Sample
+      - Same VM, multiple activities or fragments
+  - WorkManager:
+      - WorkManager overview
+      - Worker, WorkRequest
+      - WorkManager, WorkInfo
+  - Behavior:
+      - Behavior Overview
+      - Behaviors
+      - Preferences
+      - Sharing
+      - Slices
+  - UI:
+      - UI Overview
+      - UI components
+      - Emoji
+      - Palette
+  - RxJava
+  - Android Sunflower
+  - Questions
+  - Thanks

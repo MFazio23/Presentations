@@ -1,0 +1,19 @@
+{
+  "name": "android-jetpack-presentation",
+  "version": "1.0.0",
+  "description": "Presentation slides for \"Android Jetpack - Make Better Apps\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Michael Fazio <mfazio23@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "finalhandler": "^1.1.1",
+    "highlight.js": "^9.13.1",
+    "reveal.js": "^3.7.0",
+    "serve-static": "^1.13.2"
+  }
+}
