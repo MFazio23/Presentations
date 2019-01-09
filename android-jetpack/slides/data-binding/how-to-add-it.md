@@ -22,3 +22,6 @@ Note:
 + Can inflate UI from the generated binding class
 + Tie a view model to a binding object
     + Can also tie other objects
++ Binding class is generated automatically
+    + Layout name + `Binding`
+    + `fragment_week.xml` -> `FragmentWeekBinding`

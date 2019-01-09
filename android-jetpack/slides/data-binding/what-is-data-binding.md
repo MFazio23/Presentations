@@ -23,7 +23,4 @@ findViewById<TextView>(R.id.week_header_text).apply {
 />
 ```
 Note:
-+ Bind UI components in XML
-+ Binding class is generated automatically
-    + Layout name + `Binding`
-    + `fragment_week.xml` -> `FragmentWeekBinding`
++ Bind UI components to data in XML

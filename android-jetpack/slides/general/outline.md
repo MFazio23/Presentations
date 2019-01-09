@@ -7,7 +7,6 @@
 + More Architecture Components
 + Behavior
 + UI
-+ Android Sunflower
 + Questions
 + Lunch!
 
