@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/node,webstorm+all,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=node,webstorm+all,visualstudiocode
+# Created by https://www.gitignore.io/api/node,webstorm,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=node,webstorm,visualstudiocode
 
 ### Node ###
 # Logs
@@ -99,7 +99,7 @@ typings/
 # Ignore all local history of files
 .history
 
-### WebStorm+all ###
+### WebStorm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -170,20 +170,17 @@ fabric.properties
 # JetBrains templates
 **___jb_tmp___
 
-### WebStorm+all Patch ###
-# Ignores the whole .idea folder and all .iml files
-# See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
+### WebStorm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-.idea/
-
-# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
-
-*.iml
-modules.xml
-.idea/misc.xml
-*.ipr
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
 
 # Sonarlint plugin
 .idea/sonarlint
 
-# End of https://www.gitignore.io/api/node,webstorm+all,visualstudiocode
+# End of https://www.gitignore.io/api/node,webstorm,visualstudiocode
+kotlin-less-code-more-fun/slides-div.html
+kotlin-less-code-more-fun/slides/slides-div.html
