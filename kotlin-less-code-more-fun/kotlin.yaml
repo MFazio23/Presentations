@@ -1,0 +1,51 @@
+slides:
+  - Title
+  - Intro:
+    - Chicago Code Camp
+    - Skyline
+  - Why are you here:
+    - Android dev
+    - Java dev
+    - .NET dev
+    - Stack Overflow
+    - Wrong room
+  - What is Kotlin:
+    - Official description
+    - Multiplatform
+    - JVM Interoperable
+    - Android first-class language
+  - Why use Kotlin
+  - Less code:
+    - Data classes
+    - Lambdas
+    - val vs var
+    - Smart casts
+    - when expressions
+    - Ranges
+    - Single expression functions
+    - Free functions/Singletons
+    - Traversing maps
+  - Null safety:
+    - Non-null vs nullable types
+    - Checked at runtime
+    - Safe calls
+    - Elvis operator
+    - Execute if not null
+  - Gotchas:
+    - All classes are closed
+    - All functions are closed
+    - Collections are immutable
+  - Android:
+    - First class language
+    - Click handlers
+    - Lateinit
+    - Anko
+  - Javascript:
+    - JS interoperability
+    - React compatibility
+  - Native:
+    - Desktop
+    - iOS
+    - Android
+  - Questions
+  - Thank You

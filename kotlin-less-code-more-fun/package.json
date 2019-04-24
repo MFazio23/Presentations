@@ -1,0 +1,28 @@
+{
+  "name": "kotlin-lesscode-morefun",
+  "version": "1.0.0",
+  "description": "Presentation for Kotlin: Less Code, More Fun",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^3.4.0",
+    "express": "^4.16.4",
+    "finalhandler": "^1.1.1",
+    "highlight.js": "^9.13.1",
+    "reveal.js": "^3.7.0",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {},
+  "repository": "https://github.com/MFazio23/KotlinLessCodeMoreFun",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kotlin",
+    "android",
+    "java",
+    "javascript"
+  ],
+  "author": "Michael Fazio <mfazio23@gmail.com>",
+  "license": "ISC"
+}
