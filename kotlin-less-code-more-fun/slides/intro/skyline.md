@@ -1,2 +1,2 @@
 Note:
-+ I work here!
++ Platinum sponsor of NEW Code Camp
