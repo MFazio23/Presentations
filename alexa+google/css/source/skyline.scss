@@ -1,0 +1,78 @@
+/**
+ * Skyline theme created by Michael Fazio
+ * Based on Sky theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+// Default mixins and settings -----------------
+@import "../../node_modules/reveal.js/css/theme/template/mixins";
+@import "../../node_modules/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400italic,700italic,400,700);
+
+//Skyline colors
+$skylineWhite: #FFF;
+$skylineLightGray: #EEE;
+$skylineDarkGray: #9593A2;
+$skylineBlack: #282828;
+$skylineNavyBlue: #023C5B;
+$skylineAqua: #4DD0E1;
+$skylineTeal: #009688;
+$skylineGreen: #8BC34A;
+$skylineYellow: #FFC400;
+$skylineOrange: #FF6D00;
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Open Sans', sans-serif;
+$mainColor: $skylineBlack;
+$headingFont: 'Quicksand', sans-serif;
+$headingColor: $skylineBlack;
+$headingLetterSpacing: -0.08em;
+$headingTextShadow: none;
+$backgroundColor: $skylineLightGray;
+$linkColor: $skylineGreen;
+$linkColorHover: lighten($linkColor, 20%);
+$selectionBackgroundColor: $skylineNavyBlue;
+
+// Fix links so they are not cut off
+.reveal a {
+  line-height: 1.3em;
+}
+
+// Background generator
+@mixin bodyBackground() {
+  @include radial-gradient($skylineAqua, $skylineLightGray);
+}
+
+// Theme template ------------------------------
+@import "../../node_modules/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+// some overrides after theme template import
+.reveal section img {
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+li:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  color: $skylineOrange;
+  /* or whatever color you prefer */
+  margin-right: 10px;
+}
+
+.video .reveal .controls {
+  display: none !important;
+}
+.video .reveal .progress {
+  display: none !important;
+}
+.video .reveal .slide-number {
+  display: none !important;
+}

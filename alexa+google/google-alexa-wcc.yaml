@@ -1,0 +1,24 @@
+slides:
+  - Title
+  - Intro:
+    - NEW Code Camp
+    - Skyline
+  - Alexa vs. Google Home:
+    - Smart Assistants
+    - Alexa vs. Google Assistant
+    - Echo Family vs. GH Family
+    - Other devices
+    - Pros and Cons
+  - Flow Diagram:
+    - Google Home
+    - Alexa
+    - Comparison
+  - Terms
+  - Deployment Choices:
+    - AWS Lambda
+    - Firebase Cloud Functions
+    - Lamdba + Firebase
+    - Separate API and call from Lambda or Firebase
+    - Express server
+    - Lambda
+  - Thank You

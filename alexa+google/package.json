@@ -1,0 +1,27 @@
+{
+  "name": "google-alexa-wcc",
+  "version": "1.0.0",
+  "description": "Presentation for Google + Alexa: Cross-Assistant Apps",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "reveal.js": "^3.2.0",
+    "serve-static": "^1.10.0",
+    "finalhandler": "latest"
+  },
+  "devDependencies": {},
+  "repository": "https://github.com/MFazio23/GoogleAlexaCrossAssistant",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google asssistant",
+    "google home",
+    "alexa",
+    "amazon echo"
+  ],
+  "author": "Michael Fazio <mfazio23@gmail.com>",
+  "license": "ISC"
+}
