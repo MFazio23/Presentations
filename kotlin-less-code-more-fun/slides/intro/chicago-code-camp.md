@@ -1,4 +1,4 @@
-<img src="img/ccc-2018.png" height="500" />
+<img src="img/ccc-logo-480x480.png" height="500" />
 
 Note:
 +

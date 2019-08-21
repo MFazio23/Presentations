@@ -15,5 +15,6 @@ Note:
 + !! == Not-null assertion operator
     + Converts any value to a non-null type or throws an exception if null
     + "[!!] is for NPE-lovers"
+    + "Hold my beer" operator
 + Incorrect nullability
     + Add null to MutableList<String> instead of MutableList<String?>

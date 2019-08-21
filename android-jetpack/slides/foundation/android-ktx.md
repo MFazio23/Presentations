@@ -11,7 +11,9 @@ view.viewTreeObserver.addOnPreDrawListener(
     }
 )
 ```
+
 <br />
+
 ```kotlin
 // Kotlin + Android KTX
 view.doOnPreDraw {

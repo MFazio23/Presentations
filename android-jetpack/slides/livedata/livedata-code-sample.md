@@ -8,8 +8,8 @@ class CurrentWeekViewModel : ViewModel() {
 ```
 
 ```kotlin
-override fun onCreateView(
-    inflater: LayoutInflater, container: ViewGroup?, state: Bundle?): View? {        
+override fun onCreateView(inflater: LayoutInflater,
+    container: ViewGroup?, state: Bundle?): View? {        
     val vm = ViewModelProviders
         .of(this)
         .get(CurrentWeekViewModel::class.java)

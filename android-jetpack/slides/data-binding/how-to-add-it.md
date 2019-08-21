@@ -8,7 +8,9 @@ android {
     }
 }
 ```
+
 <br />
+
 ```kotlin
 val binding = FragmentWeekBinding.inflate(inflater, container, false)
 binding.setLifecycleOwner(this)

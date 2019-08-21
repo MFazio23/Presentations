@@ -1,5 +1,5 @@
 # Android Jetpack
-##### Make Better Apps
+##### Build Better Apps
 
 <img src="img/jetpack-hero.svg" height="350" />
 

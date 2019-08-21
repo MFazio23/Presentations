@@ -9,7 +9,9 @@ final String name = "Joe Smith"
 // Kotlin
 val name: String = "Joe Smith"
 ```
+
 <br />
+
 ```
 // Java
 int age = 23

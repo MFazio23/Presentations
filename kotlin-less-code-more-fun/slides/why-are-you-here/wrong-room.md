@@ -1,2 +1,4 @@
+
+
 Notes:
-    + Did you think I'd be talking about bots?
+    + Did you think I was talking about gaming?

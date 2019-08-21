@@ -9,7 +9,9 @@ a = null // compilation error
 var b: String? = "abc"
 b = null // ok
 ```
+
 <br />
+
 ```
 val l = a.length
 ```
