@@ -1,18 +1,19 @@
 ### Data Classes
-#### Component functions, destructuring declarations, `copy`
+#### Component functions, destructuring declarations, `copy(...)`
 
 ```
 data class Person(val first: String, val last: String, var age: Int)
 ```
 ```
-val hazel = Person(first = "Hazel", last = "Fazio", age = 4)
-println(hazel) // Person(first=Hazel, last=Fazio, age=4) 
+val hazel = Person(first = "Hazel", last = "Fazio", age = 5)
+println(hazel) // Person(first=Hazel, last=Fazio, age=5) 
 
 val (first, last, age) = hazel
-println("$first $last, $age years old.") // Hazel Fazio, 4 years old.
+println("$first $last, $age years old.") // Hazel Fazio, 5 years old.
 
-val hazelNY = hazel.copy(age = 5) // Next year
-println("${hazelNY.component1()} - ${hazelNY.component3()}") // Hazel - 5
+val hazelNY = hazel.copy(first = "Hazel Mae") // Full name
+hazelNY.age = 6 // Change her age
+println("${hazelNY.name} - ${hazelNY.age}") // Hazel Mae - 6
 ```
 
 Note:
