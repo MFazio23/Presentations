@@ -1,6 +1,6 @@
 ### Smart Casts
 
-```
+```java
 // Java
 private int calculateLength(Object o) {
     if(o instanceof String) {
@@ -11,7 +11,7 @@ private int calculateLength(Object o) {
 }
 ```
 
-```
+```csharp
 // C#
 private int CalculateLength(object o) {
     if(o is string s) return s.Length;
@@ -19,10 +19,11 @@ private int CalculateLength(object o) {
 }
 ```
 
-```
+```kotlin
 // Kotlin
 fun calculateLength(v: Any) : Int {
-    if(v is String) return v.length //v is automatically cast to a String
+    //v is automatically cast to a String
+    if(v is String) return v.length
 
     return 0
 }

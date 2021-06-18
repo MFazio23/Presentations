@@ -1,6 +1,6 @@
 ### Data Classes
 
-```
+```java
 // Java
 public class Person {
     private final String first;
@@ -31,7 +31,7 @@ public class Person {
 }
 ```
 
-```
+```kotlin
 // Kotlin
 data class Person(val first: String, val last: String, var age: Int)
 ```

@@ -1,20 +1,20 @@
 ### Ranges
 
-```
+```java
 // Java
 private boolean isInRange(int i) {
     return i >= 1 && i<= 10;
 }
 ```
 
-```
+```kotlin
 // Kotlin
 fun isInRange(i: Int) : Boolean {
     return i in 1..10
 }
 ```
 
-```
+```kotlin
 // Kotlin
 fun isInRange(i: Int) = i in 1..10
 ```
