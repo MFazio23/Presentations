@@ -6,9 +6,9 @@
   "dependencies": {
     "bootstrap": "^3.3.5",
     "express": "^4.13.3",
-    "reveal.js": "^3.2.0",
-    "serve-static": "^1.10.0",
-    "finalhandler": "latest"
+    "finalhandler": "latest",
+    "reveal.js": "^3.9.2",
+    "serve-static": "^1.10.0"
   },
   "devDependencies": {},
   "repository": "https://github.com/MFazio23/GoogleAlexaCrossAssistant",
