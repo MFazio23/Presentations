@@ -12,7 +12,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "finalhandler": "^1.1.1",
-    "highlight.js": "^9.15.6",
+    "highlight.js": "^10.4.1",
     "reveal.js": "^3.9.2",
     "serve-static": "^1.13.2"
   }
