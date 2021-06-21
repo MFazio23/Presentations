@@ -18,5 +18,5 @@ Note:
 - All mobile devices have a browser
 - Single codebase
 - Deploying to app stores is annoying
- - Much quicker to deploy to a web server
- - No forced review process
+    - Much quicker to deploy to a web server
+    - No forced review process

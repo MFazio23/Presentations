@@ -14,7 +14,7 @@
 
 Note:
 - Visual Studio is expensive for a professional/enterprise license
- - Can learn via the community version, though.
+    - Can learn via the community version, though.
 - Hot reload can be inconsistent (personal experience)
 - Binding libraries are tedious (personal experience, again)
 - Microsoft is not really a negative, much more dev friendly

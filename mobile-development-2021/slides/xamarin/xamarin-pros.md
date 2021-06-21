@@ -14,6 +14,6 @@ Note:
 - Compiles down to native components
 - C# is super well known
 - Xamarin.Native, Xamarin.Forms, MAUI
- - Separate UI for each platform
- - Write once, deploy to each platform
- - ~90% code reuse
+    - Separate UI for each platform
+    - Write once, deploy to each platform
+    - ~90% code reuse

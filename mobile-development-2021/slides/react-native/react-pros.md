@@ -13,6 +13,6 @@
 
 Note:
 - React and JavaScript are used a ton, very well known
- - Lots of resources
+    - Lots of resources
 - Fast Refresh allows for quick testing
 - Renders native controls
