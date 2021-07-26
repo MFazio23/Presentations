@@ -8,7 +8,6 @@
 @import "../node_modules/reveal.js/css/theme/template/settings";
 // ---------------------------------------------
 // Include theme-specific fonts
-//@import url(../node_modules/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
 @import url(../node_modules/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro.css);
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans:wght@400;700&family=Roboto&display=swap');
 
@@ -69,7 +68,7 @@ section.has-dark-background {
 
 li:before {
   content: "\f0da";
-  font-family: FontAwesome, fantasy;
+  font-family: FontAwesome;
   color: $bullet-color;
   margin-right: 10px;
 }
@@ -96,8 +95,18 @@ ul.useful-links {
   -webkit-text-fill-color: transparent;
 }*/
 
+// Add an image to the bottom-left corner
+body:after {
+  content: url("../img/android-robot-watermark.png");
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+}
+
 .reveal pre code {
   max-height: 500px;
+  width: 100%;
+  font-family: "JetBrains Mono", Consolas, monospace;
 }
 
 li.spaced-item {

@@ -367,7 +367,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 li:before {
   content: "";
-  font-family: FontAwesome, fantasy;
+  font-family: FontAwesome;
   color: #073042;
   margin-right: 10px;
 }
@@ -393,8 +393,17 @@ ul.useful-links {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }*/
+body:after {
+  content: url("../img/android-robot-watermark.png");
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+}
+
 .reveal pre code {
   max-height: 500px;
+  width: 100%;
+  font-family: "JetBrains Mono", Consolas, monospace;
 }
 
 li.spaced-item {
