@@ -2,8 +2,8 @@
 
 <ul>
     <li class="fragment" data-fragment-index="0">Navigation Graph</li>
-    <li class="fragment" data-fragment-index="1">`NavHost`</li>
-    <li class="fragment" data-fragment-index="2">`NavController`</li>
+    <li class="fragment" data-fragment-index="1"><code>NavHost</code></li>
+    <li class="fragment" data-fragment-index="2"><code>NavController</code></li>
 </ul>
 
 Notes:
