@@ -14,8 +14,8 @@
 
 Note:
 - Best: Native, but...
- - May not be the best for your team
+    - May not be the best for your team
 - Cross-platform options are _great_ now
 - Web is easiest, but missing features
- - Some users may require a mobile app
- - Easy to find and keep around (users can't uninstall a site)
+    - Some users may require a mobile app
+    - Easy to find and keep around (users can't uninstall a site)
