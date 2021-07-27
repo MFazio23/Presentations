@@ -1,5 +1,4 @@
-# Jetpack
-### ViewModels
+# ViewModels
 
 <ul>
     <li class="fragment spaced-item" data-fragment-index="0">Data Ownership</li>

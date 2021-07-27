@@ -1,5 +1,4 @@
-# Jetpack
-### ViewModels
+# ViewModels
 
 <pre>
     <code class="kotlin" data-trim data-noescape data-line-numbers="|1,2|5,6|10-16|"><script type="text/template">

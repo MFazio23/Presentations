@@ -8,10 +8,3 @@
 Notes:
 * Handles fragment transactions
 * Minimal work to handle bottom nav/nav drawer
-
-Notes:
-* Nav Graph + Nav Host + NavController
-* Fragment transactions
-* Up/Back actions
-* Deep Linking
-* Safe Args

@@ -1,5 +1,4 @@
-# Jetpack
-### ViewModels
+# ViewModels
 
 <img src="img/abl-standings.png" height="450" />
 
