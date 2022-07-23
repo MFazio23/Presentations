@@ -29,4 +29,5 @@ actual class DatabaseDriverFactory {
 ```
 
 Note:
-- Uses SQLDelite from Square
+- Example uses SQLDelite from Square
+- `expect`/`actual` is a beta feature, but is almost stable
