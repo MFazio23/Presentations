@@ -2,7 +2,7 @@
 ### Concise Types/POJOs
 
 ```kotlin
-data class Person(var name: String)
+data class Person(val name: String)
 ```
 
 <ul>

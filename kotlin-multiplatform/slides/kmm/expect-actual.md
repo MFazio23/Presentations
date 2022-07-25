@@ -23,7 +23,7 @@ actual class DatabaseDriverFactory(private val ctx: Context) {
 actual class DatabaseDriverFactory {
     actual fun createDriver(): SqlDriver =
         NativeSqliteDriver(
-            AppDatabase.Schema, "app-datbase.db"
+            AppDatabase.Schema, "app-database.db"
         )
 }
 ```
