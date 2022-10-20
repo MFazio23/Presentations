@@ -1,0 +1,117 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+// Default mixins and settings -----------------
+@import "../node_modules/reveal.js/css/theme/template/mixins";
+@import "../node_modules/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+// Include theme-specific fonts
+@import url(../node_modules/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans:wght@400;700&family=Roboto&display=swap');
+
+// Presentation colors
+$laptopBlue: #55C0EB;
+$laptopNavy: #415A6B;
+
+//Backgrounds
+$lightBackground: white url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACZJREFUeNpi/PTpEwMY8PLyMsFZnz9/ZoKzgAzG////Q1hAABBgAFeiDto+NxIZAAAAAElFTkSuQmCC") repeat;
+$darkBackground: #3A3A3A url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAhBJREFUeNqElluSAjEMA5ngS3H/e8EGPIiu9lRtPqYCecmy5OR4PB7Hcdxut9en7c7xbf1P95/PZ0Y5c63F5d1nK226+71XpvYE9jO0d8+ffcBem9HuVA+sT+OAWmLizwAiAX1wIBaRdr+HCZynMmLCz5x8zwMCXGxkx0T9+jZmomE1pqztmDo9ldk5g3B6fZ9B6gic35yU5UtckxxNZQIUqHTBDFWEmC2iPKpFIlbyGaKEUNJvp6RJ/IX5OTJQsp5GYcSR7DuCqW5RNFtvSurZiTlOPmb2IowsIGO0lUapi5+TZw6zhtJUDmdhyD6bmVD63m2CmmuyF4MgDmZVE34+iFQaQg/H23SWTCsF03TvAzJ1Vj1VViJNBZOgZ9WqhE9/E6x8xPWy3mWZKlHfx8gTkmBslThUMFyuVWG47yzdvTX9qBzIfaW6psR2J8YmAtXHy1tk/19SWBiI0YSuNSZyOFlCWrxvZy2TMKJjpiqkXWq3JnFBqjPCg6qeiFJhLp0pgXJ986DbiVfCpSGWVNThs3iwyLAOcijUCd+Z5NQJKZX2JoJ/rwSSVmJ5VjH6M7mJVGZpoenOHIg1XmQid3/v93vWzyfhtQ+UmUTNhwLfZ5Nohu7X34HWeGep4dspJpCxVYJijkVVyA3JqqQcpQWHUPJb88nGefLE5Zts/snJFeUJ+EzjvNwVR4oY8f0JMADafXyiN4WApQAAAABJRU5ErkJggg==") repeat;
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: $lightBackground;
+//$backgroundColor: $darkBackground;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$mainFontSize: 42px;
+$mainFont: 'Noto Sans', sans-serif;
+$headingFont: 'Noto Sans', sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$bullet-color: $laptopNavy;
+$linkColor: $laptopBlue;
+$linkColorHover: lighten($linkColor, 15%);
+$selectionBackgroundColor: lighten($linkColor, 25%);
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-dark-background {
+  &, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
+
+// Theme template ------------------------------
+@import "../node_modules/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+// some overrides after theme template import
+.reveal section img {
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  vertical-align: text-top;
+}
+
+li:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  color: $bullet-color;
+  margin-right: 10px;
+}
+
+.reveal li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+ul.useful-links {
+  margin-left: -50px;
+  line-height: 1.5em;
+  font-size: .9em;
+}
+
+.reveal {
+  h2, h4 {
+    color: $laptopBlue;
+  }
+}
+
+.wctc-logo {
+
+}
+
+/*
+.reveal h1 {
+  background: -webkit-linear-gradient(75deg, #00C7FF, #6C78FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}*/
+
+// Add an image to the bottom-left corner
+/*body:after {
+  content: url("../img/android-robot-watermark.png");
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+}*/
+
+.reveal pre code {
+  max-height: 500px;
+  width: 100%;
+  font-family: "JetBrains Mono", Consolas, monospace;
+}
+
+li.spaced-item {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
