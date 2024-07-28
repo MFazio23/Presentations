@@ -1,0 +1,22 @@
+{
+  "name": "mobile-development-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Fazio <mfazio23@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "finalhandler": "^1.2.0",
+    "reveal.js": "^5.1.0",
+    "serve-static": "^1.15.0"
+  },
+  "nodemonConfig": {
+    "ext": "*.js,*.css,*.html,*.md"
+  }
+}
