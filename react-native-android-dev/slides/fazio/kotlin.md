@@ -4,3 +4,4 @@
 Notes:
 + I'm a fan of Kotlin
 + It's from JetBrains
++ I taught myself this years ago
