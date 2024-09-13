@@ -9,9 +9,9 @@
   "author": "Michael Fazio <mfazio23@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.21.0",
     "finalhandler": "^1.1.2",
     "reveal.js": "^4.3.0",
-    "serve-static": "^1.14.1"
+    "serve-static": "^1.16.2"
   }
 }
